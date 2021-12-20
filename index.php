@@ -71,7 +71,15 @@ $faq = [
 
     <!-- Main -->
     <main class="main-container">
-        <p>ciao</p>
+
+        <?php
+    foreach ($faq as $key => $value) { ?>
+        <h3 class="question-faq"> <?php echo $value['question'] ?> </h3>
+        <?php } ?>
+
+
+        <p class="answer-faq"></p>
+
     </main>
 
 
