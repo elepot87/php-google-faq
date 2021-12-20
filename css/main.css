@@ -1,0 +1,69 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+  padding: 20px 20px 0;
+  border-bottom: 1px solid #9f9f9f;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+header .top-bar {
+  display: flex;
+}
+
+header .top-bar .logo {
+  margin-right: 15px;
+}
+
+header .top-bar .title-page {
+  font-size: 25px;
+  position: relative;
+  bottom: 4px;
+  font-weight: 500;
+}
+
+header .container-menu .main-menu {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+}
+
+header .container-menu .main-menu .menu-item {
+  margin-right: 40px;
+  height: 30px;
+}
+
+header .container-menu .main-menu .menu-item a {
+  text-decoration: none;
+  color: #4c4c4c;
+  font-size: 15px;
+}
+
+header .container-menu .main-menu .menu-item.active {
+  border-bottom: 3px solid #3367d6;
+}
+
+header .container-menu .main-menu .menu-item.active a {
+  color: #3367d6;
+}
+
+/* Menu hover */
+header .container-menu .main-menu .menu-item:hover a {
+  color: #3367d6;
+}
+
+/* Main */
+.main-container {
+  margin-top: 200px;
+  margin: 200px auto 60px auto;
+  width: 60%;
+}
