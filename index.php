@@ -80,7 +80,7 @@ $faq = [
     </header>
 
     <!-- Main -->
-    <main class="main-container">
+    <main class="container">
 
         <?php
     foreach ($faq as $value) { ?>
@@ -90,10 +90,33 @@ $faq = [
             <?php echo $value['answers'][$i];?>
         </p>
         <?php } ?>
-
         <?php } ?>
-
     </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-left">
+                <ul class="menu-footer">
+                    <li class="menu-item-footer">
+                        <a href="#">Google</a>
+                    </li>
+                    <li class="menu-item-footer">
+                        <a href="#">Tutto su Google</a>
+                    </li>
+                    <li class="menu-item-footer">
+                        <a href="#">Privacy</a>
+                    </li>
+                    <li class="menu-item-footer">
+                        <a href="#">Termini</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                Italiano
+            </div>
+        </div>
+    </footer>
 
 
 </body>
