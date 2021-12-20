@@ -91,6 +91,7 @@ header .container-menu .main-menu .menu-item:hover a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
 }
 
 .footer .container .footer-left .menu-footer {
@@ -106,4 +107,9 @@ header .container-menu .main-menu .menu-item:hover a {
   color: rgba(61, 61, 61, 0.8);
   text-decoration: none;
   margin-right: 15px;
+}
+
+.footer .container .footer-right {
+  color: rgba(61, 61, 61, 0.8);
+  font-size: 12px;
 }
